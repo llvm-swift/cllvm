@@ -8,7 +8,6 @@
 #include <llvm-c/BitReader.h>
 #include <llvm-c/BitWriter.h>
 #include <llvm-c/Core.h>
-#include <llvm-c/DebugInfo.h>
 #include <llvm-c/Disassembler.h>
 #include <llvm-c/ErrorHandling.h>
 #include <llvm-c/ExecutionEngine.h>
