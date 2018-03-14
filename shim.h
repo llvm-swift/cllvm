@@ -8,6 +8,7 @@
 #include <llvm-c/BitReader.h>
 #include <llvm-c/BitWriter.h>
 #include <llvm-c/Core.h>
+#include <llvm-c/DebugInfo.h>
 #include <llvm-c/Disassembler.h>
 #include <llvm-c/ErrorHandling.h>
 #include <llvm-c/ExecutionEngine.h>
@@ -27,6 +28,3 @@
 #include <llvm-c/Transforms/Vectorize.h>
 #include <llvm-c/Types.h>
 
-#if ((LLVM_VERSION_MAJOR > 6) || (LLVM_VERSION_MAJOR == 6))
-#include <llvm-c/DebugInfo.h>
-#endif
