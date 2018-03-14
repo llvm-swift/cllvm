@@ -27,3 +27,7 @@
 #include <llvm-c/Transforms/Scalar.h>
 #include <llvm-c/Transforms/Vectorize.h>
 #include <llvm-c/Types.h>
+
+#if ((LLVM_VERSION_MAJOR > 6) || (LLVM_VERSION_MAJOR == 6))
+#include <llvm-c/DebugInfo.h>
+#endif
